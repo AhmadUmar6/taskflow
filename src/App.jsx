@@ -9,7 +9,7 @@ import GraphPage from './pages/GraphPage';
 import ProfilePage from './pages/ProfilePage';
 
 // Layout and Contexts
-import Layout from './components/layout/layout';
+import Layout from './components/layout/Layout';
 import PrivateRoute from './components/auth/PrivateRoute';
 import { TaskProvider } from './contexts/TaskContext';
 
