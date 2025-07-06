@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import { Box, Paper, Typography, LinearProgress, Skeleton } from '@mui/material';
 import { useTasks } from '../contexts/TaskContext';
-import { generateStaticLayout, calculateConnectionStrength } from '../utils/graphutils';
+import { generateStaticLayout, calculateConnectionStrength } from '../utils/graphUtils';
 import ObsidianGraph from '../components/graph/ObsidianGraph';
 import TaskPopover from '../components/graph/TaskPopover';
 
